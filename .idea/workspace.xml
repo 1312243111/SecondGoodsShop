@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SecondGoodsShop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="177fc458-766e-48fd-946c-264a14c104ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/controller/CateLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/CatelogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/FocusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/ImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/NoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/PurseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Catelog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/CommentData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/CommentExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Focus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/GoodsExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/NoticeExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Purse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/CatelogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/FocusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/PurseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/CatelogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/FocusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/NoticeSeerviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/PurseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/CellRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/GoodsGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/NoticeGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/OrdersGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/PurseGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/UserGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ldu/util/WriteExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CatelogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FocusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PurseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/purse/purse_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/focus.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/goods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/purse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-combined.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/custom/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/emoji.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/info_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/materialize-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/matrix-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/mypage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/userhome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/css/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Advertisement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/alpha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/breadcrumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/commodity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/digital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/file-1493726053986.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/findfun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/glyphicons-halflings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/home_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/larrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/makeup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/mypurse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/nopic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/p_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/rarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/ride.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/smallthing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-paginator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/countUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/custom/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/index.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.complexify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/matrix.login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_batch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_business.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_dish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_ipc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_singlechip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_square.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_taste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/script_user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/0583cb1e-6acd-46da-bebc-4a9f1d6c3ac7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/110456d4-cc20-4fe2-b0a6-217b023d7dd6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/1ba8f318-fbf3-42f6-b8d9-0baa7e678cec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/23f242e3-6dbf-4d46-a1b2-a620918908d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/266abea1-a202-47f2-b5c4-095e96c10473.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/330a9a46-6434-4d04-a72b-a91a14035229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/33434fa2-8bf3-4fbc-b1d9-d1e67202e2f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/3b2e9317-9699-488c-884d-fc8798e9dbe2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/451c3aa2-529d-449d-b69f-b8771af1d806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/455e9ee5-92a7-4c7c-aa94-55f4373a16ee.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/499afa59-53bc-4d23-99ef-5d0f9d60de69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/4d472617-d430-4540-a510-f7606861dde0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/4f320b75-427a-484e-b725-a2f5d066af6f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/504d47df-32b0-4195-b63c-10d1562896cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/599629aa-9440-435c-8185-42e34a862470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/5c212d57-d8a4-4cc0-8853-dba957fba3d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/6664b320-87d4-4d37-b14f-fc5dba41f529.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/67a5f2ee-a09a-488d-9e7a-87ac6d8ab9c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/7eb89aaa-56c0-4283-893f-bd5718301d80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/854dff80-d049-4381-ae40-d1d23cd0e88b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/95daa308-8011-4e0c-b5bd-8cd151830c32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/a634ca2b-70cc-404d-95cb-fc4166fe6706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/ae1097a5-736d-4850-9552-b5901ad6d84b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/afd57674-338c-414f-98ae-78e0d25b12f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/b0933eb3-1ccb-43e1-80a4-1d50902916db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/b11c6721-b4d0-4ac5-98d3-f50c1f95d415.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/b5c9fe58-86ca-4bfb-8f9c-37bb0a361821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/ce18c0f4-dc10-454e-9791-e1992164a384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/dc4f9591-bd1a-4eac-b1ea-be6412296fb6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/e62acc43-8122-421a-940b-a68e6aeadd30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/e9bd5f1d-6b23-4d82-99fd-8be4d503784d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/ec5369f6-7c87-43db-98aa-112efa91c8c6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/f3d69569-02a1-4334-aad1-f0557b598b61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/f7418ea1-a9c9-463f-afdd-3107294004b1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/fd680315-9ac8-4268-803e-7da7b492e8b0.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/nopic9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SecondGoodsShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/CateLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/OrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/CatelogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/FocusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/ImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/OrdersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/PurseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Catelog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/CommentData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/CommentExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Comments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Focus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/GoodsExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/NoticeExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Purse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/CatelogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/FocusService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/ImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/PurseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/CatelogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/FocusServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/ImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/NoticeSeerviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/OrdersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/PurseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/CellRegion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/GoodsGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/NoticeGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/OrdersGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/PurseGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/ReadExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/UserGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ldu/util/WriteExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/CatelogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/FocusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/PurseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/META-INF/SecondGoodsShop.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/CateLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/OrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/CatelogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/FocusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/ImageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/NoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/OrdersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/PurseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Catelog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/CommentData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/CommentExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Comments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Focus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/GoodsExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Notice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/NoticeExtend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Purse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/Reply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/CatelogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/FocusService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/ImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/NoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/PurseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/CatelogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/FocusServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/ImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/NoticeSeerviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/OrdersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/PurseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/CellRegion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/GoodsGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/NoticeGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/OrdersGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/PurseGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/ReadExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/UserGrid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/com/ldu/util/WriteExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/conf/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/CatelogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/FocusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/ImageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/OrdersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/PurseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/aspectjweaver-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/druid-1.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/fastjson-1.1.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-annotations-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-core-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jackson-databind-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/javassist-3.11.0.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/ognl-3.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/poi-3.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-context-support-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-jdbc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-orm-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-tx-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-web-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/lib/spring-webmvc-4.0.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/goods/goods_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_bottom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/main_top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/modify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/orders/orders_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/purse/purse_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/user/user_add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/user/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/admin/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/catelogGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/detailGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/editGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/homeGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/pubGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/goods/searchGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/basic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/focus.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/goods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/pages/user/purse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap-combined.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/bootstrap3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/custom/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/emoji.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/info_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/jquery.bootgrid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/materialize-icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/matrix-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/matrix-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/matrix-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/mypage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/css/userhome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/css/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/font/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.eot@" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/Advertisement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/Descr.WD3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/alpha.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/breadcrumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/commodity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/digital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/file-1493726053986.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/findfun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/glyphicons-halflings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/home_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/larrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/makeup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/mypurse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/nopic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/p_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/rarrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/ride.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/smallthing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/sport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/img/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap-paginator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/countUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/custom/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/index.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.bootgrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.complexify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/materialize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/matrix.login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_batch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_business.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_dish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_ipc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_singlechip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_square.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_taste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/script_user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/js/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/0583cb1e-6acd-46da-bebc-4a9f1d6c3ac7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/110456d4-cc20-4fe2-b0a6-217b023d7dd6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/1ba8f318-fbf3-42f6-b8d9-0baa7e678cec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/23f242e3-6dbf-4d46-a1b2-a620918908d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/241ffa92-ea6f-4ea5-a212-89db2f6a408f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/266abea1-a202-47f2-b5c4-095e96c10473.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/330a9a46-6434-4d04-a72b-a91a14035229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/33434fa2-8bf3-4fbc-b1d9-d1e67202e2f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/3b2e9317-9699-488c-884d-fc8798e9dbe2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/451c3aa2-529d-449d-b69f-b8771af1d806.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/455e9ee5-92a7-4c7c-aa94-55f4373a16ee.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/499afa59-53bc-4d23-99ef-5d0f9d60de69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/4d472617-d430-4540-a510-f7606861dde0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/4f320b75-427a-484e-b725-a2f5d066af6f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/504d47df-32b0-4195-b63c-10d1562896cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/599629aa-9440-435c-8185-42e34a862470.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/5c212d57-d8a4-4cc0-8853-dba957fba3d5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/6664b320-87d4-4d37-b14f-fc5dba41f529.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/67a5f2ee-a09a-488d-9e7a-87ac6d8ab9c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/7eb89aaa-56c0-4283-893f-bd5718301d80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/854dff80-d049-4381-ae40-d1d23cd0e88b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/95daa308-8011-4e0c-b5bd-8cd151830c32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/a634ca2b-70cc-404d-95cb-fc4166fe6706.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/ae1097a5-736d-4850-9552-b5901ad6d84b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/afd57674-338c-414f-98ae-78e0d25b12f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/b0933eb3-1ccb-43e1-80a4-1d50902916db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/b11c6721-b4d0-4ac5-98d3-f50c1f95d415.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/b5c9fe58-86ca-4bfb-8f9c-37bb0a361821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/ce18c0f4-dc10-454e-9791-e1992164a384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/dc4f9591-bd1a-4eac-b1ea-be6412296fb6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/e62acc43-8122-421a-940b-a68e6aeadd30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/e9bd5f1d-6b23-4d82-99fd-8be4d503784d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/ec5369f6-7c87-43db-98aa-112efa91c8c6.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/f3d69569-02a1-4334-aad1-f0557b598b61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/f7418ea1-a9c9-463f-afdd-3107294004b1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/fd680315-9ac8-4268-803e-7da7b492e8b0.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/squirrel/upload/nopic9.png" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10550">
+              <caret line="438" selection-start-line="438" selection-end-line="438" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7100">
+              <caret line="299" column="33" selection-start-line="299" selection-start-column="33" selection-end-line="299" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/purse.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3800">
+              <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/PurseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/PurseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+              <folding>
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/PurseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PurseMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/NoticeSeerviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/NoticeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/NoticeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/ImageService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/pubGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/CatelogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/CateLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/CatelogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/CatelogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/CatelogMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CatelogMapper.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/FocusService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/FocusServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/FocusMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FocusMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/OrdersService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/OrdersServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/OrdersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/dao/PurseMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/PurseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/impl/PurseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/service/PurseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="squirrel Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SecondGoodsShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondGoodsShop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondGoodsShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondGoodsShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondGoodsShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondGoodsShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\webapp\font-awesome" />
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ldu.service" />
+      <recent name="com.ldu.service.impl" />
+      <recent name="com.ldu.dao" />
+      <recent name="com.ldu.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\resources\mapper" />
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src" />
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\java\com\ldu\dao" />
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\webapp" />
+      <recent name="C:\Users\13122\IdeaProjects\SecondGoodsShop\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SecondGoodsShop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SecondGoodsShop_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SecondGoodsShop_5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50731" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SecondGoodsShop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="177fc458-766e-48fd-946c-264a14c104ee" name="Default Changelist" comment="" />
+      <created>1571806679256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571806679256</updated>
+      <workItem from="1571806681845" duration="2485000" />
+      <workItem from="1571809209268" duration="16820000" />
+      <workItem from="1571878014535" duration="16358000" />
+      <workItem from="1571899923546" duration="8820000" />
+      <workItem from="1571963495035" duration="14002000" />
+      <workItem from="1572082652868" duration="607000" />
+      <workItem from="1572158816208" duration="8716000" />
+      <workItem from="1572222934473" duration="6181000" />
+      <workItem from="1572229940257" duration="3139000" />
+      <workItem from="1572241117260" duration="1715000" />
+      <workItem from="1572242845163" duration="10591000" />
+      <workItem from="1572311208736" duration="8170000" />
+      <workItem from="1572327316571" duration="2504000" />
+      <workItem from="1572329855879" duration="6551000" />
+      <workItem from="1572351038323" duration="1396000" />
+      <workItem from="1572395883354" duration="6976000" />
+      <workItem from="1572403698094" duration="9574000" />
+      <workItem from="1572439215478" duration="1563000" />
+      <workItem from="1572484567273" duration="7689000" />
+      <workItem from="1572572370007" duration="16943000" />
+      <workItem from="1572659032771" duration="6354000" />
+      <workItem from="1572771952795" duration="3419000" />
+      <workItem from="1572775454058" duration="2021000" />
+      <workItem from="1572829793628" duration="2861000" />
+      <workItem from="1572833291245" duration="53000" />
+      <workItem from="1572853481501" duration="1018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="166526000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2560175" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22435898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22124863" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26681128" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.20824295" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.2354874" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19176598" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.39111593" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="first" />
+    <MESSAGE value="first1" />
+    <option name="LAST_COMMIT_MESSAGE" value="first1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="49" column="54" lean-forward="true" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="129" selection-start-line="129" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="688" selection-start-line="688" selection-end-line="688" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="880" selection-start-line="880" selection-end-line="880" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.4.RELEASE/spring-webmvc-4.0.4.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="838" selection-start-line="838" selection-end-line="838" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.4.RELEASE/spring-web-4.0.4.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ldu/dao/GoodsMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/goods/detailGoods.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4525">
+          <caret line="181" column="3" selection-start-line="181" selection-start-column="3" selection-end-line="181" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/FocusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/FocusServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/FocusMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FocusMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/CateLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AdminMapper.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="75" column="46" lean-forward="true" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+          <folding>
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="30" column="121" selection-start-line="30" selection-start-column="121" selection-end-line="30" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="95" column="11" selection-start-line="95" selection-start-column="11" selection-end-line="95" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="283" column="53" selection-start-line="283" selection-start-column="53" selection-end-line="283" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="61" column="47" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="211" column="13" lean-forward="true" selection-start-line="211" selection-start-column="13" selection-end-line="211" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <element signature="e#2579#2580#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="e#3050#3051#0" expanded="true" />
+            <element signature="e#3627#3628#0" expanded="true" />
+            <element signature="e#3653#3654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/OrdersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/OrdersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/OrdersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OrdersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/orders/orders_list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/purse/purse_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5575">
+          <caret line="38" column="70" selection-start-line="38" selection-start-column="70" selection-end-line="38" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10550">
+          <caret line="438" selection-start-line="438" selection-end-line="438" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7100">
+          <caret line="299" column="33" selection-start-line="299" selection-start-column="33" selection-end-line="299" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/user/purse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="152" column="32" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/PurseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/service/impl/PurseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+          <folding>
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ldu/dao/PurseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PurseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SecondGoodsShop:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3045977" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
